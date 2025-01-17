@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  sql-chatbot:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./saved_data:/app/saved_data
+    environment:
+      - VANNA_API_KEY=b53be6531860478cbd26e83581869a25
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - sql-chatbot-net
+
+networks:
+  sql-chatbot-net:
+    driver: bridge
