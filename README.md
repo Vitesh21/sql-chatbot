@@ -52,3 +52,13 @@ Security
 Database credentials are only used for the current session and are not stored.
 All connections are made securely.
 It's recommended to use a read-only database user for queries.
+Steps to Fix on GitHub:
+Ensure the above content is saved as README.md in your repository.
+Push the updated file to GitHub:
+bash
+Copy
+Edit
+git add README.md
+git commit -m "Fix README formatting"
+git push origin main
+Refresh your GitHub repository page to see the properly formatted README.
