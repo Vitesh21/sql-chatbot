@@ -25,8 +25,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/ViteshReddy/Chatbot-for-SQL-databases.git
-cd Chatbot-for-SQL-databases
+git clone https://github.com/Vitesh21/sql-chatbot
 Install Dependencies:
 
 bash
